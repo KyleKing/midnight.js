@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('0.9.4');
   api.use('jquery');
-  api.addFiles('midnight.jquery.js', 'client');
+  api.addFiles('midnight.jquery.min.js', 'client');
 });
 
 // Package.onTest(function(api) {
