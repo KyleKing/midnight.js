@@ -26,5 +26,3 @@ kyleking:midnightjs
 stolinski:stylus-multi # with postCSS support! but somewhat outdated elsewhere
 coffeescript
 mquandalle:jade
-kyleking:customizable-bootstrap-stylus
-fortawesome:fontawesome

@@ -1,8 +1,8 @@
 Package.describe({
   name: 'kyleking:midnightjs',
-  version: '0.0.3',
+  version: '0.1.0',
   // Brief, one-line summary of the package.
-  summary: 'A jQuery plugin to switch fixed headers on the fly',
+  summary: 'A jQuery plugin to switch styles for fixed elements on the fly',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/KyleKing/midnight.js',
   // By default, Meteor will default to using README.md for documentation.
