@@ -21,3 +21,10 @@ jquery                  # Helpful client-side library
 
 #### The Library in Question ####
 kyleking:midnightjs
+
+#### Libraries and Preprocessors ####
+stolinski:stylus-multi # with postCSS support! but somewhat outdated elsewhere
+coffeescript
+mquandalle:jade
+kyleking:customizable-bootstrap-stylus
+fortawesome:fontawesome
