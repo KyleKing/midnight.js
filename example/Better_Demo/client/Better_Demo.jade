@@ -5,21 +5,20 @@ body
 
 template(name='content')
 	+fixedheader
-	.row
-		p(data-midnight="default").default This is a demo of the meteor package: Midnight.js
-	.row
-		p(data-midnight="white").white Use white font on a black nav bar here
-	.row
-		p(data-midnight="blue").blue Use green font on a blue nav bar here
-	.row
-		p(data-midnight="white").white Use white font on a black nav bar here
-	.row
-		p(data-midnight="blue").blue Use green font on a blue nav bar here
-	.row
-		p(data-midnight="white").white Use white font on a black nav bar here
-	.row
-		p(data-midnight="default").default &nbsp;
+	section.white(data-midnight="white")
+		span First
+	section.black(data-midnight="black")
+		span Second
+	section.blue(data-midnight="blue")
+		span Third
+	section.yellow(data-midnight="yellow")
+		span Fourth
+	section.empty(data-midnight="empty")
 
 template(name='fixedheader')
 	nav.fixed
-		h1.logo logo
+		span Logo
+		//- .midnightHeader.default
+		//- 	.logo-holder
+		//- 		a.logo
+		//- 			span.screenreader

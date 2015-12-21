@@ -1,29 +1,323 @@
+// html, body
+//   background: white
+//   padding: 0
+//   margin: 0
+//   font-family: "Lato", "Arial", sans-serif
+//   line-height: 160%
+//   font-size: 16px
+//   color: #cccccc
+// h1, h2, h3, h4, h5, h6
+//   font-weight: 300
+//   font-style: italic
+//   margin-top: 0
+// h1
+//   line-height: 140%
+//   font-size: 28px
+//   font-weight: 400
+//   font-style: normal
+//   color: #1E2734
+// p
+//   margin: 0
+//   margin-bottom: 1em
+// em
+//   font-style: normal
+//   color: #f72378
+// .screenreader
+//   position: absolute
+//   top: -9999px
+//   left: -9999px
+// a.button
+//   display: inline-block
+//   padding: 9px 14px
+//   border: 1px solid #1E2734
+//   line-height: 26px
+//   text-transform: uppercase
+//   color: #45a5c0
+//   background: #1E2734
+//   text-decoration: none
+//   vertical-align: top
+// a.button:hover
+//   background: #182f3b
+// a.button i
+//   margin-right: 10px
+// .icon-github
+//   display: inline-block
+//   width: 26px
+//   height: 26px
+//   background: url(images/github.png) no-repeat 50% 50%
+//   overflow: hidden
+//   vertical-align: top
+// .container
+//   max-width: 980px
+//   padding: 0px 30px
+//   margin: 0 auto
+// .container:before,
+// .container:after
+//   content: "."
+//   display: block
+//   height: 0
+//   overflow: hidden
+// .container:after
+//   clear: both
+// .container
+//   zoom: 1
+//   /* IE < 8 */
+// .instructions
+//   float: left
+//   width: 45%
+//   box-sizing: border-box
+// pre
+//   margin: 0
+//   padding: 20px 30px
+//   font-size: 14px
+//   line-height: 140%
+//   color: #ffffff
+//   background: #3D3F52
+//   border-radius: 6px
+//   float: right
+//   width: 50%
+//   box-sizing: border-box
+// /* Nav & Midnight */
+// nav.fixed
+//   position: fixed
+//   top: 0
+//   left: 0
+//   right: 0
+//   text-align: center
+//   z-index: 9999
+//   height: 300px
+//   pointer-events: none
+// .logo-holder
+//   margin: 60px auto 0px auto
+//   height: 75px
+//   padding-top: 295px
+// .logo
+//   display: block
+//   width: 800px
+//   height: 150px
+//   padding: 0
+//   margin: 0px auto
+//   margin-top: -75px
+//   background-color: green
+//   background: url(images/logos.png) no-repeat 0px -150px
+//   background-size: 800px 1050px
+// .midnightHeader.white .logo
+//   background-position: -0px 0%
+// .midnightHeader.default .logo,
+// .midnightHeader.black .logo
+//   background-position: -0px 16.67%
+// .midnightHeader.blue .logo
+//   background-position: -0px 33.33%
+// .midnightHeader.light .logo
+//   background-position: -0px 50.00%
+// .midnightHeader.dark .logo
+//   background-position: -0px 66.67%
+// .midnightHeader.lighter .logo
+//   background-position: -0px 83.33%
+// .midnightHeader.full .logo
+//   background-position: -0px 100%
+// header, section, footer
+//   padding: 1px 0
+//   overflow: hidden
+// .first-background
+//   background: url(images/background-top.jpg) no-repeat 50% 50%
+//   background-color: #151D28
+//   background-size: cover
+//   height: 300px
+// .step-one
+//   background: url(images/background-1.png) no-repeat 50% 50%
+//   background-color: #15212A
+//   background-size: cover
+// .step-two
+//   background: url(images/background-2.png) no-repeat 50% 50%
+//   background-color: #172B3F
+//   background-size: cover
+// .step-three
+//   background: url(images/background-3.png) no-repeat 50% 50%
+//   background-color: #193E5A
+//   background-size: cover
+// .step-four
+//   background: url(images/background-4.png) no-repeat 50% 50%
+//   background-color: #264C68
+//   background-size: cover
+// .step-five
+//   background: url(images/background-5.png) no-repeat 50% 50%
+//   background-color: #497697
+//   background-size: cover
+// .top-links
+//   background: #171922
+//   padding: 10px
+//   min-height: 40px
+//   text-align: center
+// .top-links a.button
+//   font-size: 14px
+//   padding: 5px 20px
+//   border: 1px solid #56555F
+//   background: #171922
+//   color: #56555F
+//   font-weight: bold
+//   margin: 0px 10px
+// header
+//   padding: 100px 0 0 0
+//   background: #ffffff
+//   text-align: center
+//   min-height: 700px
+// header .buttons
+//   margin-bottom: 40px
+// header a.button
+//   color: #ffffff
+// header h1
+//   margin-bottom: 1em
+// header p
+//   font-size: 22px
+//   font-style: italic
+//   color: #213e4d
+// header figure
+//   text-align: center
+//   margin: 0
+//   padding: 0
+//   padding-bottom: 30px
+// figure img
+//   display: block
+//   margin: 0px auto
+//   max-width: 100%
+// .scroll-prompt
+//   display: block
+//   overflow: hidden
+//   width: 40px
+//   height: 40px
+//   background: url(images/scroll.png) no-repeat 50% 50%
+//   margin: 50px auto 50px auto
+// section.step
+//   position: relative
+// .step
+//   padding: 350px 0 250px
+// footer
+//   position: relative
+//   min-height: 100vh
+//   background: rgb(73, 118, 151)
+//   /* Old browsers */
+//   background: -moz-linear-gradient(top, rgba(73, 118, 151, 1) 0%, rgba(206, 208, 204, 1) 80%, rgba(206, 208, 204, 1) 80%)
+//   /* FF3.6+ */
+//   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(73, 118, 151, 1)), color-stop(80%, rgba(206, 208, 204, 1)), color-stop(80%, rgba(206, 208, 204, 1)))
+//   /* Chrome,Safari4+ */
+//   background: -webkit-linear-gradient(top, rgba(73, 118, 151, 1) 0%, rgba(206, 208, 204, 1) 80%, rgba(206, 208, 204, 1) 80%)
+//   /* Chrome10+,Safari5.1+ */
+//   background: -o-linear-gradient(top, rgba(73, 118, 151, 1) 0%, rgba(206, 208, 204, 1) 80%, rgba(206, 208, 204, 1) 80%)
+//   /* Opera 11.10+ */
+//   background: -ms-linear-gradient(top, rgba(73, 118, 151, 1) 0%, rgba(206, 208, 204, 1) 80%, rgba(206, 208, 204, 1) 80%)
+//   /* IE10+ */
+//   background: linear-gradient(to bottom, rgba(73, 118, 151, 1) 0%, rgba(206, 208, 204, 1) 80%, rgba(206, 208, 204, 1) 80%)
+//   /* W3C */
+//   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#497697', endColorstr='#ced0cc',GradientType=0 )
+//   /* IE6-9 */
+// footer .illustration-city
+//   padding-top: 50vh
+//   background: url(images/city.png) no-repeat 50% 100%
+//   min-height: 50vh
+// footer .buttons
+//   padding: 0px 0 190px 0
+//   text-align: center
+// footer .buttons .button
+//   margin: 10px
+// footer .signature
+//   position: absolute
+//   bottom: 30px
+//   left: 0
+//   right: 0
+//   text-align: center
+// .signature-aerolab
+//   display: inline-block
+//   width: 117px
+//   height: 43px
+//   overflow: hidden
+//   background: url(images/aerolab-logo.png) no-repeat 50% 50%
+//   background-size: 117px 43px
+
+
+
+
+
+
+//
+//
+// Backgrounds
+//
+//
+Fill-Image(height, url, style)
+	background-image url(url)
+	height height
+	width 100%
+	background-size style
+	background-repeat no-repeat
+	background-position center
+
+link1 = '/imgs/BigImage.jpg'
+// 'http://www.wallpapersbyte.com/wp-content/uploads/2015/06/Nature-Night-Sky-Stars-Blurred-Light-Show-Mountains-WallpapersByte-com-3840x2400.jpg'
+link2 = '/imgs/tree.jpg'
+// 'https://wallpaperscraft.com/image/night_sky_stars_tree_86210_1920x1080.jpg'
+link3 = '/imgs/moon.jpg'
+// 'https://wallpaperscraft.com/image/full_moon_night_sky_ice_constructions_47255_3840x1200.jpg'
+link4 = '/imgs/milkyway.jpg'
+// 'http://wallpaperbeta.com/wallpaper_3840x2160/sky_night_star_milky_way_landscapes_ultra_3840x2160_hd-wallpaper-413396.jpg'
+
+section.white
+	Fill-Image(500px, link1, cover)
+section.black
+	Fill-Image(500px, link2, cover)
+section.blue
+	Fill-Image(500px, link3, cover)
+section.yellow
+	Fill-Image(500px, link4, cover)
+section.empty
+	background-color black
+	height 500px
+
+span
+	color white
+	font-weight bold
+	font-size 30px
+
+//
+//
+// Nav Midnight Demo
+//
+//
+// nav.fixed
+// 	position: fixed
+// 	top: 0
+// 	left: 0
+// 	right: 0
+// 	text-align: center
+// 	z-index: 9999
+// 	height: 300px
+// 	pointer-events: none
+// 	.logo-holder
+// 		margin: 60px auto 0px auto
+// 		height: 75px
+// 		padding-top: 295px
+// 		.logo
+// 			background-color green
+
 nav.fixed
 	position fixed
-	z-index 1
+	z-index 2
 	text-align center
 	text-transform uppercase
 
-p
-	margin 0
-	padding-top 200px
-	padding-bottom 200px
-	text-align center
-	font-weight bold
-p.default
-	background-color white
-p.white
-	background-color black
-	color white
-p.blue
-	background-color green
-
-.midnightHeader.default
-	background black
-	color white
 .midnightHeader.white
 	background white
-	color black
+	span
+		color black
+.midnightHeader.black
+	background black
+	span
+		color white
 .midnightHeader.blue
 	background blue
-	color green
+	span
+		color black
+.midnightHeader.yellow
+	background yellow
+	span
+		color white
