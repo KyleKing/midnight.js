@@ -1,3 +1,9 @@
+# Currently a work in progress Meteor Package
+> Check back later tomorrow for a ready-to-use package with documentation and what-not!
+
+
+
+
 ## Midnight
 
 A jQuery plugin that switches between multiple header designs as you scroll, so you always have a header that looks great with the content below it.
