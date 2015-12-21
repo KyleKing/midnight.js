@@ -1,12 +1,5 @@
-# Currently a work in progress Meteor Package
-> Check back later tomorrow for a ready-to-use package with documentation and what-not!
-
-
-
-
-## Midnight
-
-A jQuery plugin that switches between multiple header designs as you scroll, so you always have a header that looks great with the content below it.
+## Midnight.js for Meteor
+> A jQuery plugin that switches between multiple header designs as you scroll, so you always have a header that looks great with the content below it.
 
 **[Check out the demo](http://aerolab.github.io/midnight.js/)** (watch the logo as you scroll).
 
@@ -65,17 +58,18 @@ You can style it in your css using the class .midnightHeader.your-class (replace
 ```
 
 
-To initialize, just load midnight and initialize it
+To initialize, just add the midnight package and initialize it
 
-```html
-<script src="midnight.jquery.js"></script>
-<script>
-  // Start midnight
-  $(document).ready(function(){
-    // Change this to the correct selector for your nav.
-    $('nav.fixed').midnight();
-  });
-</script>
+```sh
+meteor add kyleking:midnightjs
+```
+
+```js
+// Start midnight
+Template.YourTemplate.onRendered(function() {
+	// Change this to the correct selector.
+  return $('nav.fixed').midnight();
+});
 ```
 
 
@@ -126,12 +120,14 @@ $('nav').midnight({
 
 ## Installation
 
-Midnight is available on Bower and NPM as **midnight.js**:
+Midnight is available on Bower, NPM, and Meteor as **midnight.js**:
 
 ```
 bower install midnight.js
 
 npm install midnight.js
+
+meteor add kyleking:midnightjs
 ```
 
 
