@@ -5,20 +5,25 @@ body
 
 template(name='content')
 	+fixedheader
+	section.default
+		span No Midnight Data
 	section.white(data-midnight="white")
-		span First
-	section.black(data-midnight="black")
-		span Second
-	section.blue(data-midnight="blue")
-		span Third
+		span White
+	section.dkblue(data-midnight="dkblue")
+		span Dark Blue
+	section.purple(data-midnight="purple")
+		span Purple
+	section.ltblue(data-midnight="ltblue")
+		span Light Blue
 	section.yellow(data-midnight="yellow")
-		span Fourth
-	section.empty(data-midnight="empty")
+		span Yellow
+	section.red(data-midnight="red")
+		span Red
 
 template(name='fixedheader')
 	nav.fixed
-		span Logo
-		//- .midnightHeader.default
-		//- 	.logo-holder
-		//- 		a.logo
-		//- 			span.screenreader
+		//- span Logo
+		.midnightHeader.default
+			.logo-holder
+				a.logo
+					span.screenreader
