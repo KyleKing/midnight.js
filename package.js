@@ -1,6 +1,6 @@
 Package.describe({
   name: 'kyleking:midnightjs',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'A jQuery plugin to switch fixed headers on the fly',
   // URL to the Git repository containing the source code for this package.
@@ -13,12 +13,5 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('0.9.4');
   api.use('jquery');
-  api.addFiles('midnight.jquery.min.js', 'client');
+  api.addFiles('submodule/midnight.jquery.min.js', 'client');
 });
-
-// Package.onTest(function(api) {
-//   api.use('ecmascript');
-//   api.use('tinytest');
-//   api.use('kyleking:midnightjs');
-//   api.addFiles('midnightjs-tests.js');
-// });
