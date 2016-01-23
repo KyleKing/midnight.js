@@ -40,6 +40,12 @@ You can style it in your css using the class .midnightHeader.your-class (replace
 
 
 ```css
+/* Example markup for header element */
+nav.fixed {
+  position: fixed;
+  height: 20px; /* must have some height */ 
+}
+
 .midnightHeader.default {
   background: none;
   color: black;
