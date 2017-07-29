@@ -1,9 +1,8 @@
-## Midnight.js for Meteor
+# Midnight.js (*for Meteor*)
 
-A jQuery plugin that switches between multiple header designs as you scroll, so you always have a header that looks great with the content below it.
+This is a fork of the popular Midnight.js JQuery plugin as a Meteor Package. The plugin updates a fixed header as you scroll, so you always have a header that looks great with the content below it.
 
-**[Check out the demo](http://aerolab.github.io/midnight.js/)** (watch the logo as you scroll).
-
+**[Check out the official demo](http://aerolab.github.io/midnight.js/)**
 
 ## Quick start
 
